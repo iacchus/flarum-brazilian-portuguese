@@ -10,7 +10,14 @@
 		    "name": "Kassius Mercurius",
 		    "email": "kassivs@gmail.com",
 		    "homepage": "https://www.kassius.org"
-	    }
+	    },
+            
+            {
+                    "name": "Santiago Testa Biali",
+                    "email": "santiago.t.biali@gmail.com",
+                    "github": "https://github.com/santiagobiali"
+            }
+           
     ],
     "support": {
 	    "issues": "https://github.com/kassius/flarum-brazilian-portuguese/issues",
