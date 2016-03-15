@@ -394,7 +394,7 @@ core:
 
     # These strings are used in emails sent when users register new accounts.
     activate_account:
-      subject: Ative Sua Nova Conta {forum}
+      subject: Ative Sua Nova Conta
       body: |
         Olá {username}!
         
