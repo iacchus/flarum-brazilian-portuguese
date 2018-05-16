@@ -35,11 +35,11 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Ser notificado de todas as respostas.
+      following_text: Seja notificado de todas as respostas.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Nunca ser notificado. Esconder da lista de discussão.
-      not_following_button: Não Seguir
-      not_following_text: "Ser notificado apenas quando @mencionado."
+      ignoring_text: Nunca seja notificado. Oculta da lista de discussão.
+      not_following_button: Não Seguindo
+      not_following_text: "Seja notificado apenas quando @mencionado."
       notify_alert_tooltip: Receber uma notificação no fórum quando houver novos posts
       notify_email_tooltip: Receber um email quando houver novos posts
 
@@ -51,4 +51,4 @@ flarum-subscriptions:
   ref:
     follow: Seguir
     following: Seguindo
-    ignoring: Ignorar
+    ignoring: Ignorando
