@@ -463,38 +463,42 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Ative Sua Nova Conta {forum}
+      subject: Ative Sua Nova Conta
       body: |
         Olá {username}!
 
-        Bem vindo ao {forum}!
+        Alguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.
 
-        Para ativar sua conta Clique no link:
+        Se foi você mesmo, basta clicar no link abaixo e sua conta será ativada:
         {url}
 
-        Se não foi você quem se cadastrou, apenas ignore este email.
+        Se você não se cadastrou, por favor ignore este e-mail.
 
 # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirme seu endereço de e-mail
+      subject: Confirme Seu Novo Endereço de E-mail
       body: |
         Olá {username}!
 
-        Para confirmar a alteração de endereço de email em {forum} clique no link:
+        Alguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.
+
+        Se foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:
         {url}
 
-        Se você não solicitou isso, apenas ignore este email.
+        Se você não solicitou isso, por favor ignore este e-mail.
 
 # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: Redefina Sua Senha
+      subject: => core.ref.reset_your_password
       body: |
         Olá {username}!
 
-        Para alterar sua senha em {forum} clique no link:
+        Alguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.
+
+        Se foi você mesmo, clique no link abaixo para redefinir sua senha:
         {url}
 
-        Se você não solicitou isso, apenas ignore este email.
+        Se você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.
 
 ##
 # REUSED TRANSLATIONS - These keys should not be used directly in code!
