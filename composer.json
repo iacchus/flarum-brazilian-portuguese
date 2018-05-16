@@ -2,30 +2,34 @@
     "name": "kassius/flarum-brazilian-portuguese",
     "type": "flarum-extension",
     "description": "Brazilian portuguese language pack.",
-    "homepage": "https://github.com/kassius/flarum-brazilian-portuguese",
+    "homepage": "https://github.com/iacchus/flarum-brazilian-portuguese",
     "keywords": ["brazilian","portuguese","language","locale","localization","translation"],
     "license": "MIT",
     "authors": [
-	    {
-		    "name": "Kassius Mercurius",
-		    "email": "kassivs@gmail.com",
-		    "homepage": "https://www.kassius.org"
-	    },
-            
-            {
-                    "name": "Santiago Testa Biali",
-                    "email": "santiago.t.biali@gmail.com",
-                    "github": "https://github.com/santiagobiali"
-            }
+        {
+            "name": "Kassius Mercurius",
+            "email": "kassivs@gmail.com",
+            "homepage": "https://www.kassius.org"
+        },
+        {
+            "name": "Santiago Testa Biali",
+            "email": "santiago.t.biali@gmail.com",
+            "homepage": "https://github.com/santiagobiali"
+        },
+        {
+            "name": "Renato Atilio",
+            "email": "renatoat@gmail.com",
+            "homepage": "https://github.com/renato"
+        }
            
     ],
     "support": {
-	    "issues": "https://github.com/kassius/flarum-brazilian-portuguese/issues",
-	    "source": "https://github.com/kassius/flarum-brazilian-portuguese"
+	    "issues": "https://github.com/iacchus/flarum-brazilian-portuguese/issues",
+	    "source": "https://github.com/iacchus/flarum-brazilian-portuguese"
     },
     "require": 
     {
-	    "flarum/core": "^0.1.0-beta.4"
+	    "flarum/core": "^0.1.0-beta.7"
     },
     "extra": {
         "flarum-extension": {
