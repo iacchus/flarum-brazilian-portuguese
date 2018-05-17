@@ -474,7 +474,7 @@ core:
 
         Se você não se cadastrou, por favor ignore este e-mail.
 
-# These translations are used in emails sent when users change their email address.
+    # These translations are used in emails sent when users change their email address.
     confirm_email:
       subject: Confirme Seu Novo Endereço de E-mail
       body: |
@@ -487,7 +487,7 @@ core:
 
         Se você não solicitou isso, por favor ignore este e-mail.
 
-# These translations are used in emails sent when users ask to reset their passwords.
+    # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
@@ -500,11 +500,11 @@ core:
 
         Se você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.
 
-##
-# REUSED TRANSLATIONS - These keys should not be used directly in code!
-##
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
 
-# Translations in this namespace are referenced by two or more unique keys.
+  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Todas as Discussões
     change_email: Alterar E-mail
