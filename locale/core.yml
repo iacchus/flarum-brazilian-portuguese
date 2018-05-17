@@ -276,11 +276,11 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Inicie uma Discussão
+      cannot_start_discussion_button: => core.ref.start_a_discussion
       mark_all_as_read_confirmation: "Tem certeza que deseja marcar todas as discussões como lidas?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Atualizar
-      start_discussion_button: Inicie uma Discussão
+      start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
