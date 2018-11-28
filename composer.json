@@ -1,5 +1,5 @@
 {
-    "name": "kassius/flarum-brazilian-portuguese",
+    "name": "renatoat/flarum-ext-brazilian-portuguese",
     "type": "flarum-extension",
     "description": "Brazilian portuguese language pack.",
     "homepage": "https://github.com/iacchus/flarum-brazilian-portuguese",
