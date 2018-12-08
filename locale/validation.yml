@@ -27,6 +27,16 @@ validation:
   exists: "O :attribute selecionado ja existe."
   file: "O :attribute deve ser um arquivo."
   filled: "O campo :attribute é exigido."
+  gt:
+    numeric: "O :attribute deve ser maior que :value."
+    file: "O :attribute deve ser maior que :value kilobytes."
+    string: "O :attribute deve ser maior que :value caracteres."
+    array: "O :attribute deve ter mais que :value itens."
+  gte:
+    numeric: "O :attribute deve ser maior ou igual a :value."
+    file: "O :attribute deve ser maior ou igual a :value kilobytes."
+    string: "O :attribute deve ser maior ou igual a :value caracteres."
+    array: "O :attribute deve ter :value itens ou mais."
   image: "O :attribute deve ser uma imagem."
   in: "O :attribute selecionado é inválido."
   in_array: "O campo :attribute não existe em :other."
@@ -35,6 +45,16 @@ validation:
   ipv4: "O :attribute deve ser um endereço IPv4 válido."
   ipv6: "O :attribute deve ser um endereço IPv6 válido."
   json: "O :attribute deve ser uma string JSON válida."
+  lt:
+    numeric: "O :attribute deve ser menor que :value."
+    file: "O :attribute deve ser menor que :value kilobytes."
+    string: "O :attribute deve ser menor que :value caracteres."
+    array: "O :attribute deve ter menos que :value itens."
+  lte:
+    numeric: "O :attribute deve ser menor ou igual a :value."
+    file: "O :attribute deve ser menor ou igual a :value kilobytes."
+    string: "O :attribute deve ser menor ou igual a :value caracteres."
+    array: "O :attribute não deve ter mais que :value itens."
   max:
     numeric: "O :attribute não pode ser maior do que :max."
     file: "O :attribute não pode ser não pode ser maior do que :max kilobytes."
@@ -48,6 +68,7 @@ validation:
     string: "O :attribute precisa ter ao menos :min caracteres."
     array: "O :attribute must have at least :min items."
   not_in: "O :attribute selecionado é inválido."
+  not_regex: "O formato do :attribute é inválido."
   numeric: "O :attribute deve ser um número."
   present: "O campo :attribute deve estar presente."
   regex: "O formato do :attribute é inválido."
@@ -69,6 +90,7 @@ validation:
   unique: "O :attribute já existe."
   uploaded: "O :attribute falhou ao fazer upload."
   url: "O formato do :attribute é inválido."
+  uuid: "O :attribute deve ser um UUID válido."
 
   attributes:
     username: nome de usuário

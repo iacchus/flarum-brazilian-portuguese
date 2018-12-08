@@ -19,12 +19,15 @@ core:
       colored_header_label: Cabeçalho Colorido
       colors_heading: Cores
       colors_text: "Escolha duas cores com as quais tematizar o seu fórum. A primeira será usada como cor de destaque, enquanto a segunda será usada para estilizar elementos de fundo."
+      custom_footer_heading: Rodapé Personalizado
+      custom_footer_text: core.ref.custom_footer_text
       custom_header_heading: Cabeçalho Personalizado
       custom_header_text: "Adicione um HTML para ser exibido no topo da página, acima do cabeçalho do Flarum."
       custom_styles_heading: Estilos Personalizados
       custom_styles_text: Personalize a aparência do seu fórum adicionando o seu próprio código LESS/CSS a ser aplicado em cima dos estilos padrões do Flarum.
       dark_mode_label: Modo Escuro
       edit_css_button: Editar CSS Personalizado
+      edit_footer_button: core.ref.custom_footer_title
       edit_header_button: Editar Cabeçalho Personalizado
       enter_hex_message: Por favor entre com um código de cor em hexadecimal.
       favicon_heading: Favicon
@@ -50,20 +53,20 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Este <strong>software beta</strong> é fornecido primariamente para que você possa ajudar-nos a testá-lo e fazê-lo melhor; ele não deve ser usado em produção."
-      contributing_text: "Quer procurar bugs e contribuir? Leia a <a>documentação de Contribuição</a>."
-      extension_text: "Interessado em desenvolver extensões? Leia a <a>documentação de Extensões</a>."
-      features_text: "Tem uma idéia para melhorar uma funcionalidade? Diga-nos sobre isso na <a>tag Features</a>."
-      support_text: "Encontrou um bug? Por favor reporte-o em nosso fórum, sob a <a>tag Support</a>."
-      troubleshooting_text: "Está tendo problemas? Siga as instruções na <a>documentação de Solução de Problemas</a>."
-      version_text: "Obrigado por experimentar o Flarum! Você está rodando a versão {version}."
-      welcome_text: "Bem vindo ao Flarum Beta!"
+      clear_cache_button: Limpar Cache
+      tools_button: Ferramentas
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Personalize a aparência de seu fórum adicionando seu própro código LESS/CSS para ser aplicado sobre os <a>estilos padrões</a> do Flarum."
       submit_button: => core.ref.save_changes
       title: Editar CSS Personalizado
+
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -131,13 +134,14 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
+      allow_post_editing_label: Permitir editar post
       allow_renaming_label: Permitir renomear
-      allow_post_editing_label: Permitir editar postagem
       create_heading: Criar
       delete_discussions_forever_label: Deletar discussões permanentemente
       delete_discussions_label: Deletar discussões
       delete_posts_forever_label: Deletar posts permanentemente
-      edit_and_delete_posts_label: Editar e deletar postagens
+      delete_posts_label: Deletar posts
+      edit_posts_label: Editar posts
       global_heading: Global
       moderate_heading: Moderar
       new_group_button: Novo Grupo
@@ -148,6 +152,7 @@ core:
       sign_up_label: Cadastre-se
       start_discussions_label: Iniciar discussões
       view_discussions_label: Ver discussões
+      view_last_seen_at_label: Ver última visita de usuário
       view_post_ips_label: Ver endereços IP do post
       view_user_list_label: Ver lista de usuários
 
@@ -176,8 +181,8 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       incorrect_password_message: A senha fornecida está incorreta.
       submit_button: => core.ref.save_changes
@@ -195,6 +200,7 @@ core:
       exit_full_screen_tooltip: Sair de Tela Cheia
       full_screen_tooltip: Tela Cheia
       minimize_tooltip: Minimizar
+      preview_tooltip: Pré-visualização
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -339,8 +345,8 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Renomear Discussão
       submit_button: => core.ref.rename
+      title: Renomear Discussão
 
     # These translations are used by the search results dropdown list.
     search:
@@ -363,8 +369,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "Já tem uma conta? <a>Entre</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -377,13 +383,13 @@ core:
       avatar_remove_button: Remover
       avatar_upload_button: Enviar
       avatar_upload_tooltip: Enviar um novo avatar
-      bio_placeholder: Escreva algo sobre si mesmo
       discussions_link: => core.ref.discussions
       in_discussion_text: "Em {discussion}"
       joined_date_text: "Entrou {ago}"
       online_text: Online
-      posts_load_more_button: => core.ref.load_more
+      posts_empty_text: Parece que não tem nenhum post aqui.
       posts_link: Posts
+      posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -406,10 +412,6 @@ core:
     badge:
       hidden_tooltip: Oculto
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[deletado]"
-
     # These translations are displayed as error messages.
     error:
       generic_message: "Oops! Algo deu errado. Por favor recarregue a página e tente novamente."
@@ -428,6 +430,10 @@ core:
       three_text: "{first}, {second}, e {third}"
       two_text: "{first} e {second}"
 
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[deletado]"
+
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
@@ -442,16 +448,31 @@ core:
       next_page_button: => core.ref.next_page
       previous_page_button: Página Anterior
 
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      403_message: Você não tem permissão para acessar esta página.
+      404_message: A página que vocẽ solicitou não pôde ser encontrada.
+      404_return_link: "Voltar a {forum}"
+      500_message: Um erro ocorreu ao tentar carregar esta página.
+      503_message: "{forum} está em manutenção. Obrigado por sua paciência!"
+
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Tem certeza que deseja sair de {forum}?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
-      confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: Redefinir Senha
+    reset_password:
+      confirm_password_label: Confirmar Nova Senha
+      new_password_label: Nova Senha
+      submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
@@ -474,7 +495,7 @@ core:
 
         Se você não se cadastrou, por favor ignore este e-mail.
 
-    # These translations are used in emails sent when users change their email address.
+# These translations are used in emails sent when users change their email address.
     confirm_email:
       subject: Confirme Seu Novo Endereço de E-mail
       body: |
@@ -487,7 +508,7 @@ core:
 
         Se você não solicitou isso, por favor ignore este e-mail.
 
-    # These translations are used in emails sent when users ask to reset their passwords.
+# These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
@@ -500,20 +521,25 @@ core:
 
         Se você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.
 
-  ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
-  ##
+##
+# REUSED TRANSLATIONS - These keys should not be used directly in code!
+##
 
-  # Translations in this namespace are referenced by two or more unique keys.
+# Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Todas as Discussões
     change_email: Alterar E-mail
     change_password: Alterar Senha
+    color: Cor                                  # Referenced by flarum-tags.yml
     confirm_password: Confirmar Senha
     confirmation_email_sent: "Nós enviamos um e-mail de confirmação para {email}. Se ele não chegar logo, verifique sua caixa de spam."
+    custom_footer_text: TRADUZIR Add HTML to be displayed at the very bottom of the page.
+    custom_footer_title: TRADUZIR Edit Custom Footer
+    custom_header_text: "TRADUZIR Add HTML to be displayed at the very top of the page, above Flarum's own header."
+    custom_header_title: TRADUZIR Edit Custom Header
     delete: Deletar
     delete_forever: Deletar Permanentemente
-    discussions: Discussões
+    discussions: Discussões                      # Referenced by flarum-statistics.yml
     edit: Editar
     email: E-mail
     load_more: Carregar Mais
@@ -524,6 +550,9 @@ core:
     notifications: Notificações
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Senha
+    posts: Posts                                 # Referenced by flarum-statistics.yml
+    previous_page: Página Anterior
+    remove: Remover
     rename: Renomear
     reply: Responder                             # Referenced by flarum-mentions.yml
     reset_your_password: Redefir sua Senha
@@ -534,6 +563,7 @@ core:
     some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Iniciar uma Discussão
     username: Nome de usuário
+    users: Usuários                              # Referenced by flarum-statistics.yml
     write_a_reply: Escrever uma Resposta...
     you: Você                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
 

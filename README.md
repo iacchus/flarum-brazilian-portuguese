@@ -1,14 +1,16 @@
-# Flarum Brazilian Portuguese language pack (pt-BR)
+# Flarum Brazilian Portuguese Language Pack (pt-BR)
 
 https://discuss.flarum.org
 
-Complete; Flarum version 0.1.0-beta7. Portuguese (Brazil) language pack. Português (Brasil), pt-BR
+Complete; Flarum version **0.1.0-beta8**. Portuguese (Brazil) language pack. Português (Brasil), pt-BR
+
+A [little helper script](https://gist.github.com/renato/f584a99b6eb2a50a593b0f427616fbc7) is used to to diff these files with the updated english strings.
 
 ## Installation:
 
 ### Using composer (recommended):
 
-Flarum use Composer to manage its dependencies and extensions. The brazilian Portuguese language pack is available on Packagist and can be managed that way. Make sure that Composer is installed on your machine, then run the following command in the location where Flarum is installed:
+Flarum uses Composer to manage its dependencies and extensions. The brazilian Portuguese language pack is available on Packagist and can be managed that way. Make sure that Composer is installed on your machine, then run the following command in the location where Flarum is installed:
 
 `composer require renatoat/flarum-ext-brazilian-portuguese`
 

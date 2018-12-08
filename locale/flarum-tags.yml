@@ -71,6 +71,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Editar Tags
 
+    header:
+      back_to_tags_tooltip: Voltar a Lista de Tags
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Mais...
@@ -79,8 +82,8 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} adicionou {tagsAdded}."
       added_and_removed_tags_text: "{username} adicionou {tagsAdded} e removeu {tagsRemoved}."
+      added_tags_text: "{username} adicionou {tagsAdded}."
       removed_tags_text: "{username} removeu {tagsRemoved}."
       tags_text: "a tag {tags}|as tags {tags}"
 

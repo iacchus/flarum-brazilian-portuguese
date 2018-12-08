@@ -24,12 +24,12 @@
            
     ],
     "support": {
-	    "issues": "https://github.com/iacchus/flarum-brazilian-portuguese/issues",
-	    "source": "https://github.com/iacchus/flarum-brazilian-portuguese"
+	    "issues": "https://github.com/renato/flarum-ext-brazilian-portuguese/issues",
+	    "source": "https://github.com/renato/flarum-ext-brazilian-portuguese"
     },
     "require": 
     {
-	    "flarum/core": "^0.1.0-beta.7"
+	    "flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
         "flarum-extension": {
