@@ -530,7 +530,7 @@ core:
     all_discussions: Todas as Discussões
     change_email: Alterar E-mail
     change_password: Alterar Senha
-    color: Cor                                  # Referenced by flarum-tags.yml
+    color: Cor                                   # Referenced by flarum-tags.yml
     confirm_password: Confirmar Senha
     confirmation_email_sent: "Nós enviamos um e-mail de confirmação para {email}. Se ele não chegar logo, verifique sua caixa de spam."
     custom_footer_text: TRADUZIR Add HTML to be displayed at the very bottom of the page.
